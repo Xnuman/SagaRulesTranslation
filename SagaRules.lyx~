@@ -1,0 +1,2915 @@
+#LyX file created by tex2lyx 2.3
+\lyxformat 544
+\begin_document
+\begin_header
+\save_transient_properties true
+\origin C:/Users/circl/Downloads/SagaRules/
+\textclass article
+\begin_preamble
+
+
+\usepackage{amsthm}\usepackage{mathtext}
+\usepackage[english, russian]{babel}
+\usepackage{url}
+\usepackage{float}
+
+
+
+
+\title{\textbf{Правила для игры SAGA}\\ {\normalsize (Второе издание)}}
+\author{Автор: Alex Buchel\\
+		\\
+		Неофициальный перевод: Александр Березовой \\
+		(специально для клуба "Сквозь века" )}
+
+
+\end_preamble
+\use_default_options false
+\maintain_unincluded_children false
+\language russian
+\language_package default
+\inputencoding utf8
+\fontencoding T1,T2A
+\font_roman "default" "default"
+\font_sans "default" "default"
+\font_typewriter "default" "default"
+\font_math "auto" "auto"
+\font_default_family default
+\use_non_tex_fonts false
+\font_sc false
+\font_osf false
+\font_sf_scale 100 100
+\font_tt_scale 100 100
+\use_microtype false
+\use_dash_ligatures true
+\graphics default
+\default_output_format default
+\output_sync 0
+\bibtex_command default
+\index_command default
+\paperfontsize 11
+\spacing single
+\use_hyperref false
+\papersize a4paper
+\use_geometry false
+\use_package amsmath 2
+\use_package amssymb 2
+\use_package cancel 0
+\use_package esint 1
+\use_package mathdots 0
+\use_package mathtools 0
+\use_package mhchem 0
+\use_package stackrel 0
+\use_package stmaryrd 0
+\use_package undertilde 0
+\cite_engine basic
+\cite_engine_type default
+\biblio_style plain
+\use_bibtopic false
+\use_indices false
+\paperorientation portrait
+\suppress_date true
+\justification true
+\use_refstyle 0
+\use_minted 0
+\index Index
+\shortcut idx
+\color #008000
+\end_index
+\secnumdepth 3
+\tocdepth 3
+\paragraph_separation indent
+\paragraph_indentation default
+\is_math_indent 0
+\math_numbering_side default
+\quotes_style russian
+\dynamic_quotes 0
+\papercolumns 1
+\papersides 2
+\paperpagestyle plain
+\tracking_changes false
+\output_changes false
+\html_math_output 0
+\html_css_as_file 0
+\html_be_strict false
+\end_header
+
+\begin_body
+
+\begin_layout Standard
+
+\lang russian
+
+\begin_inset ERT
+status collapsed
+
+\begin_layout Plain Layout
+
+\backslash
+maketitle
+\end_layout
+
+\end_inset
+
+ 
+\begin_inset Newpage newpage
+\end_inset
+
+
+\begin_inset CommandInset toc
+LatexCommand tableofcontents
+
+\end_inset
+
+
+\begin_inset Newpage newpage
+\end_inset
+
+
+\end_layout
+
+\begin_layout Part*
+
+\lang russian
+Твоя Сага начинается здесь
+\end_layout
+
+\begin_layout Standard
+
+\lang russian
+
+\begin_inset ERT
+status collapsed
+
+\begin_layout Plain Layout
+
+\backslash
+addcontentsline{toc}{part}{Твоя сага начинается здесь}
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+
+\lang russian
+
+\begin_inset ERT
+status collapsed
+
+\begin_layout Plain Layout
+
+\backslash
+begingroup
+\end_layout
+
+\end_inset
+
+ 
+\begin_inset ERT
+status collapsed
+
+\begin_layout Plain Layout
+
+\backslash
+fontsize{13pt}{11pt}
+\end_layout
+
+\end_inset
+
+
+\begin_inset ERT
+status collapsed
+
+\begin_layout Plain Layout
+
+\backslash
+selectfont
+\end_layout
+
+\end_inset
+
+ 
+\series bold
+
+\shape italic
+Сага позволяет тебе как воссоздать ожесточённые сражения, проходившие между реальными враждующими народами в разные исторические эпохи, так и окунуться в битвы из фэнтези миров. В этот век героев храбрые воины встретятся на поле боя, ведомые твоими инстинктами и тактической смекалкой (с небольшой долей рассчёта на удачу, конечно же!)! 
+\begin_inset Newline newline
+\end_inset
+
+ Пришло время вписать своё имя на страницы истории. Пусть сталь будет твоим пером, а кровь - чернилами...
+\shape default
+
+\series default
+ 
+\begin_inset ERT
+status collapsed
+
+\begin_layout Plain Layout
+
+\backslash
+endgroup
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Section*
+
+\lang russian
+Добро пожаловать в Сагу
+\end_layout
+
+\begin_layout Standard
+
+\lang russian
+Книга, которую ты держишь в своих потных трясущихся ладошках, - главный ключ к тому, чтобы начать играть во многих вселенных. Она содержит основные правила к игре с миниатюрами SAGA и фундаментальные принципы игры, которые будут работать вне зависимости от того, какой исторический период или какую вселенную ты выберешь для игры. Скоро ты поймёшь, что правила просты и легко усваиваются, но содержат в себе вещи, для осознания которых требуется время. Для ускорения твоего обучения правила содержат в себе много советов и примеров того, как играть в эту игру.
+\begin_inset Newline newline
+\end_inset
+
+ 
+\begin_inset Newline newline
+\end_inset
+
+ Помимо ядра игры, которое ты прямо сейчас держишь в своих руках, тебе понадобится Вселенная Саги. Какие-то вселенные уже доступны для игры, другие же появятся позже. Ты можешь играть в Эпоху Викингов, Век Крестовых Походов, Эру Короля Артура и многие другие. Вселенная, которую ты выберешь, должна удовлетворять твоим вкусам и желаниям, а также тому набору фигурок, который у тебя есть. (Запомни, это касается и тех бравых ребят, с которыми ты будешь играть!). Правила в этой книге будут работать для любой вселенной.
+\begin_inset Newline newline
+\end_inset
+
+ 
+\begin_inset Newline newline
+\end_inset
+
+ Тебя страшат мысли о боевом вожде на поля боя, окружённом всё ещё тёплыми мертвецами и с кровавой сталью в руках?! Если нет, то Сага покажется тебе не страшнее, чем чашечка горячего чая. Ну а если тебе страшно, то мы можем посоветовать только выбрать более мирное хобби. Например, шитьё. 
+\begin_inset Newpage newpage
+\end_inset
+
+
+\begin_inset ERT
+status collapsed
+
+\begin_layout Plain Layout
+
+\backslash
+begingroup
+\end_layout
+
+\end_inset
+
+ 
+\begin_inset ERT
+status collapsed
+
+\begin_layout Plain Layout
+
+\backslash
+fontsize{15pt}{11pt}
+\end_layout
+
+\end_inset
+
+
+\begin_inset ERT
+status collapsed
+
+\begin_layout Plain Layout
+
+\backslash
+selectfont
+\end_layout
+
+\end_inset
+
+ 
+\shape italic
+Книжник поможет тебе...
+\shape default
+
+\begin_inset Newline newline
+\end_inset
+
+ 
+\begin_inset Newline newline
+\end_inset
+
+ 
+\begin_inset ERT
+status collapsed
+
+\begin_layout Plain Layout
+
+\backslash
+fontsize{11pt}{11pt}
+\end_layout
+
+\end_inset
+
+
+\begin_inset ERT
+status collapsed
+
+\begin_layout Plain Layout
+
+\backslash
+selectfont
+\end_layout
+
+\end_inset
+
+ 
+\shape italic
+Я Книжник, тот, кто без устали ведёт летопись хроник Вселенных Саги и тот, кто будет вести тебя на этих страницах. Время от времени я буду давать тебе советы, которые пригодятся тебе вне зависимости от эры, в которой ты играешь. Никогда не забывай их, ведь даже перед лицом самой страшной опасности хладнокровие это всё, что стоит между героем и его могилой!
+\shape default
+ 
+\begin_inset ERT
+status collapsed
+
+\begin_layout Plain Layout
+
+\backslash
+endgroup
+\end_layout
+
+\end_inset
+
+ 
+\end_layout
+
+\begin_layout Section*
+
+\lang russian
+Что тебе понадобится для игры
+\end_layout
+
+\begin_layout Standard
+
+\lang russian
+Давай же немедленно перейдём к списку того, что тебе понадобится для игры. 
+\begin_inset Newline newline
+\end_inset
+
+ 
+\begin_inset Newline newline
+\end_inset
+
+ Для начала, так как Сага - игра с миниатюрами, тебе понадобятся миниатюры, модели солдат. Каждый игрок является лидером отряда, военного формирования или, как принято говорить среди некоторых игроков, 
+\series bold
+банды
+\series default
+, численностью в среднем от 20 до 50 фигурок. Размер фигурок не важен, но по иллюстрациям в этой книге ты поймёшь, что мы предпочитаем играть миниатюрами высотой 28мм, но дело твоё. Мы ещё не готовы выпустить наши карательные отряды Чистая Сага, чтобы следить за тем, что игроки делают с нашими продуктами. 
+\begin_inset Newline newline
+\end_inset
+
+ 
+\begin_inset Newline newline
+\end_inset
+
+ Также тебе понадобится поверхность, на которую ты поставишь свои замечательные фигурки. Стандартное игровое поле саги имеет размеры: 120см на 90см (или 48 на 36 дюймов). Поле было специально сделано так, чтобы у игроков было место, куда поставить еду и напитки, которые так необходимы во время свирепой схватки! 
+\begin_inset Newline newline
+\end_inset
+
+ 
+\begin_inset Newline newline
+\end_inset
+
+ 
+\begin_inset Graphics 
+	filename pics/SagaBoard.png
+	width 100text%
+
+\end_inset
+
+ 
+\begin_inset Newline newline
+\end_inset
+
+ 
+\begin_inset Newline newline
+\end_inset
+
+ 
+\begin_inset Newline newline
+\end_inset
+
+ Украшающие твою доску декорации также важны - зоны, которые они занимают, могут влиять непосредственно на сам процесс игры. В самом простом случае деревья могут быть представлены в виде схематичного рисунка или контура на доске, но, честно говоря, если ты будешь использовать модели деревьев для этого, игра не станет хуже, скорее, наоборот! 
+\begin_inset Newline newline
+\end_inset
+
+ 
+\begin_inset Newline newline
+\end_inset
+
+ Для измерения расстояний тебе понадобятся четыре измерительные линейки определённой длины. В Саге используется 4 единицы измерения длины: 
+\end_layout
+
+\begin_layout Itemize
+
+\lang russian
+Very Short (Очень короткая), обозначается 
+\series bold
+VS
+\series default
+ и равна 2 дюймам 
+\end_layout
+
+\begin_layout Itemize
+
+\lang russian
+Short (Короткая), обозначается 
+\series bold
+S
+\series default
+ и равна 4 дюймам 
+\end_layout
+
+\begin_layout Itemize
+
+\lang russian
+Medium (Среднее), обозначается 
+\series bold
+M
+\series default
+ и равна 6 дюймам 
+\end_layout
+
+\begin_layout Itemize
+
+\lang russian
+Long (Длинная), обозначается 
+\series bold
+L
+\series default
+ и равна 12 дюймам 
+\end_layout
+
+\begin_layout Standard
+
+\lang russian
+Существуют официально продаваемые линейки, но вы можете сделать свои собственные по шаблонам, доступным на нашем сайте (
+\begin_inset Flex URL
+status collapsed
+
+\begin_layout Plain Layout
+www.studio-tomahawk.com
+\end_layout
+
+\end_inset
+
+). Помни, что эти линейки - единственное реальное оружие, участвующее в игре, так что убедись в том, что они вселят ужас в оппонента и дадут тебе психологическое преимущество! 
+\begin_inset Newline newline
+\end_inset
+
+ 
+\begin_inset Newline newline
+\end_inset
+
+ 
+\begin_inset Graphics 
+	filename pics/SagaSticks.jpg
+	width 100text%
+
+\end_inset
+
+ 
+\begin_inset Newline newline
+\end_inset
+
+ 
+\begin_inset Newline newline
+\end_inset
+
+ 
+\begin_inset Newline newline
+\end_inset
+
+ Так как игрокам всегда нужно что-то, на что они злятся, когда Леди Удача отворачивается от них, Сага использует два типа кубов. Первый - это старые-добрые шестигранные кубики, которые легко достать и которых полным-полно у бывалых варгеймеров. Второй тип это кубики Саги. Это шестигранные кубики, на гранях которых начертаны особые символы. На данный момент существует достаточно много типов кубов Саги, которые вы можете купить либо же сделать сами. Каждому игроку понадобится 8 кубов Саги своей фракции для игры. Тип кубов Саги для каждой фракции указан в соответствующей книге правил и нарисован на боевой доске фракции. 
+\begin_inset Newline newline
+\end_inset
+
+ 
+\begin_inset Newline newline
+\end_inset
+
+ Наконец, тебе понадобятся жетоны для обозначения 
+\series bold
+усталости
+\series default
+ - наказания для тех, кто сражается слишком долго или совершает немыслимые подвиги. Опять же, ты можешь купить эти жетоны или сделать сам. 
+\end_layout
+
+\begin_layout Part
+
+\lang russian
+Основы
+\end_layout
+
+\begin_layout Standard
+
+\lang russian
+
+\series bold
+
+\shape italic
+В этой главе мы разберёмся со многими элементами игры и некоторыми общими правилами 
+\shape default
+
+\series default
+ 
+\begin_inset Newline newline
+\end_inset
+
+ 
+\begin_inset Newline newline
+\end_inset
+
+ 
+\begin_inset Newline newline
+\end_inset
+
+ 
+\shape italic
+Примечание переводчика: в данной книге в равном значении будут использоваться понятия 
+\series bold
+банда, отряд, военное формирование, военная банда
+\series default
+, которые имеют значения всех юнитов, подконтрольных игроку в одной игре. Я искренне и всеми силами стараюсь выдерживать единый стиль и использовать слово 
+\series bold
+
+\begin_inset ERT
+status collapsed
+
+\begin_layout Plain Layout
+"
+\end_layout
+
+\end_inset
+
+банда
+\begin_inset ERT
+status collapsed
+
+\begin_layout Plain Layout
+"
+\end_layout
+
+\end_inset
+
+
+\series default
+, но если вы встретите понятия, перечисленные выше, прошу простить - ночной труд это вам не игровые посиделки! :) 
+\shape default
+ 
+\end_layout
+
+\begin_layout Section*
+
+\lang russian
+Отряды и фракции
+\end_layout
+
+\begin_layout Standard
+
+\lang russian
+В Саге каждый игрок управляет 
+\series bold
+бандой
+\series default
+, численность которой, как мы видели ранее, составляет около тридцати миниатюр. Эта банда является частью 
+\series bold
+фракции
+\series default
+, которая представляет реальные исторические народы, фэнтези-расу (например, орки) или персонажей мифологии (Аргонавты). Каждая фракция является частью какой-то Вселенной Саги и детально описано в соответствующей книге правил. 
+\begin_inset Newline newline
+\end_inset
+
+ 
+\begin_inset Newline newline
+\end_inset
+
+ У каждой фракции есть собственная 
+\series bold
+боевая доска
+\series default
+ (батлборд). Это не та доска, которой ты избиваешь своего оппонента, а специальный лист картона, на котором изображены способности твоей фракции. Как мы увидим далее, именно боевая доска и кубики Саги - самый сок этой игры! 
+\begin_inset Newline newline
+\end_inset
+
+ 
+\begin_inset Newline newline
+\end_inset
+
+ Система очков набора фигурок призвана сделать сражения сбалансированными, а банды равными. Сражения Саги играются армиями, собранными на количество очков между 4 и 8. Обычно игроки выбирают формат 6 очков, но мы тебе советуем свои первые игры на 4 очка, чтобы быстрее ознакомиться с механикой игры. Каждое очко позволяет тебе набрать определённое количество фигурок (см. главу 
+\begin_inset ERT
+status collapsed
+
+\begin_layout Plain Layout
+"
+\end_layout
+
+\end_inset
+
+Сбор армии
+\begin_inset ERT
+status collapsed
+
+\begin_layout Plain Layout
+"
+\end_layout
+
+\end_inset
+
+). 
+\begin_inset Newline newline
+\end_inset
+
+ 
+\begin_inset Newline newline
+\end_inset
+
+
+\end_layout
+
+\begin_layout Subsection*
+
+\lang russian
+Типы солдат
+\end_layout
+
+\begin_layout Standard
+
+\lang russian
+В Саге каждая фигурка принадлежит одному из четырёх типов отрядов, описанных ниже.
+\end_layout
+
+\begin_layout Subsubsection*
+
+\lang russian
+Герои
+\end_layout
+
+\begin_layout Standard
+
+\lang russian
+Герои - главные и самые яркие представители каждой эпохи Саги. Они сами по себе являются 
+\series bold
+юнитами
+\series default
+ и обладают способностями, которые превосходят возможности простых смертных. Именно они рождают легенды. 
+\begin_inset Newline newline
+\end_inset
+
+ 
+\begin_inset Newline newline
+\end_inset
+
+ В частности, один герой всегда ведёт за собой любую банду - это ваш 
+\series bold
+Боевой Вождь (Варлорд)
+\series default
+. Он бывалый воин, хитроумный и могущественный, всегда готовый ворваться в гущу сражения. Своего рода фэнтезийное альтер-эго для большинства игроков! 
+\begin_inset Newline newline
+\end_inset
+
+ 
+\begin_inset Newline newline
+\end_inset
+
+ Другие герои описываются в каждой отдельно взятой Вселенной Саги - они могут быть историческими личностями, волшебниками или легендарными существами. 
+\begin_inset Newline newline
+\end_inset
+
+ 
+\begin_inset Newline newline
+\end_inset
+
+ 
+\end_layout
+
+\begin_layout Subsubsection*
+
+\lang russian
+Воины правителя
+\end_layout
+
+\begin_layout Standard
+
+\lang russian
+Воины правителя это лучшие бойцы в твоём распоряжении, они представляют собой хорошо обученных солдат с лучшим из доступного снаряжением. Как правило, составляют личную охрану для Боевого Вождя и Героев. Это именно те парни, которых стоит звать с собой в таверну! 
+\begin_inset Newline newline
+\end_inset
+
+ 
+\begin_inset Newline newline
+\end_inset
+
+ 
+\shape italic
+Примечание переводчика: альтернативный перевод - Дружина правителя, Дружина, Дружинники
+\shape default
+ 
+\end_layout
+
+\begin_layout Subsubsection*
+
+\lang russian
+Воины
+\end_layout
+
+\begin_layout Standard
+
+\lang russian
+Воины - это основа любой армии. Обыкновенные солдаты, которые что-то смыслят в ратном деле и вооружены, возможно, не самым лучшим, но всё ещё опасным оружием. Воины редко носят броню и больше полагаются на численность как в атаке, так и в обороне. Если столкнёшься с ними в двери таверны, лучше посчитай, сколько их, прежде чем лезть в драку.
+\end_layout
+
+\begin_layout Subsubsection*
+
+\lang russian
+Рекруты
+\end_layout
+
+\begin_layout Standard
+
+\lang russian
+Они никогда этого не хотели, но драться им придётся - Боевой Вождь заставит! Он полагается на их огромную численность и в каждой битве старается избавиться от своих самых жалких слуг, не утруждая себя судами и бумажной волокитой. Если они попадутся тебе на пути в таверне - пусть принесут тебе пиво!
+\end_layout
+
+\begin_layout Subsection*
+
+\lang russian
+Характеристики
+\end_layout
+
+\begin_layout Standard
+
+\lang russian
+В Саге у фигурок имеется две характеристики: Броня и Агрессия. 
+\begin_inset Newline newline
+\end_inset
+
+ 
+\begin_inset Newline newline
+\end_inset
+
+ Броня представляет собой качество защитного снаряжения и то, как тяжело противнику будет вывести воина из боя. В зависимости от того, как они снаряжены, фигурки могут иметь разные показатели Брони в ближнем бою и против дальних атак. Броня не может быть меньше значения 
+\begin_inset ERT
+status collapsed
+
+\begin_layout Plain Layout
+"
+\end_layout
+
+\end_inset
+
+2
+\begin_inset ERT
+status collapsed
+
+\begin_layout Plain Layout
+"
+\end_layout
+
+\end_inset
+
+ и больше значения 
+\begin_inset ERT
+status collapsed
+
+\begin_layout Plain Layout
+"
+\end_layout
+
+\end_inset
+
+6
+\begin_inset ERT
+status collapsed
+
+\begin_layout Plain Layout
+"
+\end_layout
+
+\end_inset
+
+. 
+\begin_inset Newline newline
+\end_inset
+
+ 
+\begin_inset Newline newline
+\end_inset
+
+ Агрессия - это то, сколько кубиков получает 
+\series bold
+юнит
+\series default
+ во время атаки. Агрессия отличается для ближнего и дальнего боя и может быть представлена как целым числом, так и дробью. 
+\begin_inset Newline newline
+\end_inset
+
+ 
+\begin_inset Newline newline
+\end_inset
+
+ Эти характеристики зависят от типа воина, которому принадлежит фигурка. То есть, все Воины Правителя имеют одинаковую Броню и Агрессию, это же справедливо для Воинов и Рекрутов. 
+\begin_inset Newline newline
+\end_inset
+
+ 
+\begin_inset Newline newline
+\end_inset
+
+ В отличие от Боевых Вождей, у которых тоже эти характеристики совпадают, Герои являются исключением, и их Броня и Агрессия варьируются. 
+\begin_inset Newline newline
+\end_inset
+
+ 
+\begin_inset Newline newline
+\end_inset
+
+ Снаряжение, носимое фигуркой, может менять эти характеристики. Например, у лучника может быть снижена Броня, чтобы ему было проще нести свой лук. 
+\begin_inset Newline newline
+\end_inset
+
+ 
+\begin_inset Newline newline
+\end_inset
+
+
+\end_layout
+
+\begin_layout Subsection*
+
+\lang russian
+Юниты
+\end_layout
+
+\begin_layout Standard
+
+\lang russian
+Каждая фигурка принадлежит своему 
+\series bold
+юниту
+\series default
+, который на начало игры включает в себя от 4 до 12 фигурок - ни больше, ни меньше. Внутри одного юнита все фигурки должны быть одного типа (Воины правителя, Воины, Рекруты) и иметь одинаковое снаряжение. Юнит не может разделиться или стать частью другого юнита во время игры. 
+\begin_inset Newline newline
+\end_inset
+
+ 
+\begin_inset Newline newline
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+
+\lang russian
+
+\shape italic
+Примечание переводчика
+\shape default
+ 
+\begin_inset Newline newline
+\end_inset
+
+ 
+\shape italic
+Часто будет встречаться термин 
+\begin_inset Quotes erd
+\end_inset
+
+подразделение
+\begin_inset Quotes erd
+\end_inset
+
+, это то же самое, что и юнит.
+\shape default
+ 
+\begin_inset Newline newline
+\end_inset
+
+ 
+\begin_inset Newline newline
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+
+\lang russian
+Герои (снова они!) являются исключением. Они составляют юнит численностью в одну фигурку и, если это нигде специально не прописано, не могут сопровождаться другими фигурками. 
+\begin_inset Newline newline
+\end_inset
+
+ 
+\begin_inset Newline newline
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+
+\lang russian
+
+\begin_inset ERT
+status collapsed
+
+\begin_layout Plain Layout
+
+\backslash
+begingroup
+\end_layout
+
+\end_inset
+
+ 
+\begin_inset ERT
+status collapsed
+
+\begin_layout Plain Layout
+
+\backslash
+fontsize{15pt}{11pt}
+\end_layout
+
+\end_inset
+
+
+\begin_inset ERT
+status collapsed
+
+\begin_layout Plain Layout
+
+\backslash
+selectfont
+\end_layout
+
+\end_inset
+
+ 
+\shape italic
+Книжник поможет тебе...
+\shape default
+
+\begin_inset Newline newline
+\end_inset
+
+ 
+\begin_inset Newline newline
+\end_inset
+
+ 
+\begin_inset ERT
+status collapsed
+
+\begin_layout Plain Layout
+
+\backslash
+fontsize{11pt}{11pt}
+\end_layout
+
+\end_inset
+
+
+\begin_inset ERT
+status collapsed
+
+\begin_layout Plain Layout
+
+\backslash
+selectfont
+\end_layout
+
+\end_inset
+
+ 
+\shape italic
+Довольно часто фанаты Саги ставят вместе с героем на большую подставку другие фигурки - слуг, пажей или питомцев Героя. Эти фигурки носят чисто декоративный характер и подставка с Героем считается одной фигуркой в рамках правил игры.
+\shape default
+ 
+\begin_inset ERT
+status collapsed
+
+\begin_layout Plain Layout
+
+\backslash
+endgroup
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Subsection*
+
+\lang russian
+Построения
+\end_layout
+
+\begin_layout Standard
+
+\lang russian
+Во время своего размещения или по окончанию движения юнит должен удовлетворять некоторым правилам построения. 
+\begin_inset Newline newline
+\end_inset
+
+ 
+\begin_inset Newline newline
+\end_inset
+
+ Во-первых, каждая фигурка должна находиться не дальше, чем на дистанции 
+\series bold
+VS
+\series default
+ от другой фигурки своего юнита. Это значит, что если провести линию между всеми фигурками одного юнита, не будет промежутка длиннее, чем 
+\series bold
+VS
+\series default
+. Ты никогда не можешь нарушать это правило: ни когда убираешь фигурки из-за боевых потерь, ни в каких других случаях. 
+\begin_inset Newline newline
+\end_inset
+
+ 
+\begin_inset Newline newline
+\end_inset
+
+ Во-вторых, после размещения или по окончанию движения, расстояние от первой двигавшейся или выставленной фигурки до любой другой фигурки юнита должно быть не больше, чем 
+\series bold
+S
+\series default
+. Это означает, что все фигурки юнита должны помещаться в воображаемый круг радиуса 
+\series bold
+S
+\series default
+ с первой фигуркой в центре. Для конных юнитов данное правило работает иначе (см. соответствующую главу). 
+\begin_inset Newline newline
+\end_inset
+
+ 
+\begin_inset Newline newline
+\end_inset
+
+ Заметь, что в Саге то, куда смотрит фигурка, не влияет на игру. Мы всё равно советуем тебе ставить твои фигурки лицом к противнику, чтобы избежать язвительных комментариев от тех, кто будет наблюдать за битвой. 
+\begin_inset Newline newline
+\end_inset
+
+ 
+\begin_inset Newline newline
+\end_inset
+
+
+\end_layout
+
+\begin_layout Subsubsection*
+
+\lang russian
+Подставки
+\end_layout
+
+\begin_layout Standard
+
+\lang russian
+Фигурки в Саге должны находиться на подставках, которые могут быть в форме прямоугольника, круга или какой угодно, решает игрок. Однако они всё же должны удовлетворять следующим критериям: 
+\end_layout
+
+\begin_layout Itemize
+
+\lang russian
+Подставка верховой фигурки должна помещаться в квадрат со стороной 50мм и не может быть меньше, чем прямоугольник со сторонами 40мм и 20мм 
+\end_layout
+
+\begin_layout Itemize
+
+\lang russian
+Подставка пешей фигурки должна помещаться в квадрат со стороной 30мм и не может быть меньше, чем квадрат со стороной 20мм 
+\end_layout
+
+\begin_layout Itemize
+
+\lang russian
+Подставка Героя, неважно, пешего или верхового, должна помещаться в квадрат со стороной 60мм. Минимальный размер зависит от того, пеший Герой или на коне и удовлетворяет критериям, описанным выше для обычных миниатюр. 
+\end_layout
+
+\begin_layout Standard
+
+\lang russian
+Минимальный диаметр круглой подставки и минимальная ширина прямоугольной является 20мм. 
+\begin_inset Newline newline
+\end_inset
+
+ 
+\begin_inset Newline newline
+\end_inset
+
+
+\end_layout
+
+\begin_layout Section*
+
+\lang russian
+Принципы игры
+\end_layout
+
+\begin_layout Standard
+
+\lang russian
+Здесь будут описаны некоторые элементы, которые проиллюстрируют основные принципы игры. Ты должен будешь помнить их, читая остальную часть правил.
+\end_layout
+
+\begin_layout Subsection*
+
+\lang russian
+Ход
+\end_layout
+
+\begin_layout Standard
+
+\lang russian
+Игра в Сагу идёт некоторое количество ходов, передаваемых между игроками. Ход игрока разделён на две фазы: Фазу Приказов, во время которой игрок бросает свои кубики Саги и выставляет их на Боевой Доске, и Фазу Активаций, во время которой юниты действуют согласно тому, как игрок распределил кубики в прошлую фазу. Как только Фаза Активаций игрока заканчивается, его ход завершён и начинается ход его противника. 
+\begin_inset Newline newline
+\end_inset
+
+ 
+\begin_inset Newline newline
+\end_inset
+
+
+\end_layout
+
+\begin_layout Subsection*
+
+\lang russian
+Сценарии
+\end_layout
+
+\begin_layout Standard
+
+\lang russian
+Любая игра в Сагу идёт согласно сценарию, который определяет условия победы, то, как расставляются юниты на поле боя, любые специальные правила и количество ходов. 
+\begin_inset Newline newline
+\end_inset
+
+ 
+\begin_inset Newline newline
+\end_inset
+
+ В конце книги ты найдёшь базовый сценарий, который направит тебя на путь воина безжалостных земель мира Саги - 
+\begin_inset ERT
+status collapsed
+
+\begin_layout Plain Layout
+"
+\end_layout
+
+\end_inset
+
+Противостояние Боевых Вождей
+\begin_inset ERT
+status collapsed
+
+\begin_layout Plain Layout
+"
+\end_layout
+
+\end_inset
+
+. Дополнительный набор Саги, 
+\begin_inset ERT
+status collapsed
+
+\begin_layout Plain Layout
+"
+\end_layout
+
+\end_inset
+
+Book of battles
+\begin_inset ERT
+status collapsed
+
+\begin_layout Plain Layout
+"
+\end_layout
+
+\end_inset
+
+ содержит большое количество других сценариев, описывающих более интересные и необычные ситуации. 
+\begin_inset Newline newline
+\end_inset
+
+ 
+\begin_inset Newline newline
+\end_inset
+
+
+\end_layout
+
+\begin_layout Subsection*
+
+\lang russian
+Измерения
+\end_layout
+
+\begin_layout Standard
+
+\lang russian
+Как мы упоминали до этого, в игре 4 вида измерений. 
+\begin_inset Newline newline
+\end_inset
+
+ 
+\begin_inset Newline newline
+\end_inset
+
+
+\end_layout
+
+\begin_layout Itemize
+
+\lang russian
+Very Short (Очень короткая), обозначается 
+\series bold
+VS
+\series default
+ и равно 2 дюймам 
+\end_layout
+
+\begin_layout Itemize
+
+\lang russian
+Short (Короткая), обозначается 
+\series bold
+S
+\series default
+ и равно 4 дюймам 
+\end_layout
+
+\begin_layout Itemize
+
+\lang russian
+Medium (Среднее), обозначается 
+\series bold
+M
+\series default
+ и равно 6 дюймам 
+\end_layout
+
+\begin_layout Itemize
+
+\lang russian
+Long (Длинная), обозначается 
+\series bold
+L
+\series default
+ и равно 12 дюймам 
+\end_layout
+
+\begin_layout Standard
+
+\lang russian
+В этой книге, как и во всех остальных материалах Саги, мы будем пользоваться этими обозначениями - так что запомни их побыстрей! Например, будет сказано, что дальность стрельбы из лука равна L, и не будет сказано, что лук стреляет на 12 дюймов. 
+\begin_inset Newline newline
+\end_inset
+
+ 
+\begin_inset Newline newline
+\end_inset
+
+ Сага разрашает тебе выполнять измерения в любое время, в любой ситуации. То есть, до того как скомандовать стрельбу, ты можешь убедиться, что все твои фигурки достают до противника - и наборот, перед тем, как получить залп стрел противника в брюхо, ты можешь измерить расстояние от атакующих до своих бравых ребят. 
+\begin_inset Newline newline
+\end_inset
+
+ 
+\begin_inset Newline newline
+\end_inset
+
+ Часто будет всплывать термин 
+\begin_inset ERT
+status collapsed
+
+\begin_layout Plain Layout
+"
+\end_layout
+
+\end_inset
+
+
+\shape italic
+быть на дистанции X
+\shape default
+
+\begin_inset ERT
+status collapsed
+
+\begin_layout Plain Layout
+"
+\end_layout
+
+\end_inset
+
+. X может быть VS, S, M или L. Для подразделения, фигурки или декорации 
+\begin_inset Quotes erd
+\end_inset
+
+
+\shape italic
+быть на дистанции X
+\shape default
+
+\begin_inset Quotes erd
+\end_inset
+
+ означает, что достаточно части подразделения, фигурки или декорации быть на расстоянии X или меньше, чтобы выполнилось это условие. 
+\begin_inset Newline newline
+\end_inset
+
+ 
+\begin_inset Newline newline
+\end_inset
+
+ 
+\shape italic
+
+\series bold
+Заметьте, что достаточно части подставки фигурки из подразделения быть на дистанции X, чтобы всё подразделение считалось находящимся на дистанции X
+\series default
+
+\shape default
+ 
+\begin_inset Newline newline
+\end_inset
+
+ 
+\begin_inset Newline newline
+\end_inset
+
+ Единственное исключение из этого правила - формулировка 
+\begin_inset Quotes erd
+\end_inset
+
+
+\shape italic
+Полностью внутри X
+\shape default
+
+\begin_inset Quotes erd
+\end_inset
+
+, 
+\begin_inset Quotes erd
+\end_inset
+
+
+\shape italic
+В пределах X
+\shape default
+
+\begin_inset Quotes erd
+\end_inset
+
+, которое означает, что всё подразделение или декорация должна лежать на дистанции X. 
+\begin_inset Newline newline
+\end_inset
+
+ 
+\begin_inset Newline newline
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+
+\lang russian
+
+\begin_inset ERT
+status collapsed
+
+\begin_layout Plain Layout
+
+\backslash
+begingroup
+\end_layout
+
+\end_inset
+
+ 
+\begin_inset ERT
+status collapsed
+
+\begin_layout Plain Layout
+
+\backslash
+fontsize{15pt}{11pt}
+\end_layout
+
+\end_inset
+
+
+\begin_inset ERT
+status collapsed
+
+\begin_layout Plain Layout
+
+\backslash
+selectfont
+\end_layout
+
+\end_inset
+
+ 
+\shape italic
+Книжник поможет тебе...
+\shape default
+
+\begin_inset Newline newline
+\end_inset
+
+ 
+\begin_inset Newline newline
+\end_inset
+
+ 
+\begin_inset ERT
+status collapsed
+
+\begin_layout Plain Layout
+
+\backslash
+fontsize{11pt}{11pt}
+\end_layout
+
+\end_inset
+
+
+\begin_inset ERT
+status collapsed
+
+\begin_layout Plain Layout
+
+\backslash
+selectfont
+\end_layout
+
+\end_inset
+
+ 
+\shape italic
+Высказывать своё намерение очень важная часть игры в Сагу, которая помогает избежать лишних споров и бесконечных склок. Если ты двигаешь своё подразделение, собираясь увести его из-под огня вражеских лучников, сообщи своему противнику, что ты остаёшься на дистанции дальше L. Тогда во время его хода, даже если крошечная часть подставки фигурки из твоего подразделения находится в пределах L, ситуация быстро может быть решена небольшими подвижками, ссылаясь на то, что ты сообщил о своём намерении до этого. Так мы в Саге избегаем лишнего кровопролития.
+\shape default
+ 
+\begin_inset ERT
+status collapsed
+
+\begin_layout Plain Layout
+
+\backslash
+endgroup
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Subsection*
+
+\lang russian
+Перебросы и модификаторы
+\end_layout
+
+\begin_layout Standard
+
+\lang russian
+Несколько игровых эффектов позволят тебе перебросить кубик (сейчас речь идёт о стандартном шестигранном кубике, D6). Игрок может перебросить каждый кубик только один раз за ход и обязан оставить результат, полученный после переброса, даже если этот результат хуже изначального. 
+\begin_inset Newline newline
+\end_inset
+
+ 
+\begin_inset Newline newline
+\end_inset
+
+ Результат, выпавший на кубике, может быть изменён как в большую, так и в меньшую сторону (например, +1 или -2). Любой результат после модификации, который численно меньше 0, считается равным 0, но при этом верхняя граница может превосходить 6. Например, бросок кубика на 5, модифицированный на +2, даст тебе в результате 7. 
+\begin_inset Newline newline
+\end_inset
+
+ 
+\begin_inset Newline newline
+\end_inset
+
+ Эти правила не применяются к Кубам Саги, которые могут быть переброшены сколько угодно раз и у которых нет никаких численных значений. 
+\begin_inset Newline newline
+\end_inset
+
+ 
+\begin_inset Newline newline
+\end_inset
+
+
+\end_layout
+
+\begin_layout Subsection*
+
+\lang russian
+Дроби
+\end_layout
+
+\begin_layout Standard
+
+\lang russian
+Сага с завидной регулярностью использует дробные значения - как слова (половина, треть и т.д.), так и числовой эквивалент (1/2, 1/3 и т.д.). 
+\begin_inset Newline newline
+\end_inset
+
+ 
+\begin_inset Newline newline
+\end_inset
+
+ Во всех случая применяется простое правило: дроби округляются вверх до ближайшего целого. Например, если треть твоего отряда из восьми фигурок внезапно захочет справить нужду в ближайших кустах, то три воина из восьми поддадутся зову природы, пока враг не видит. 
+\begin_inset Newline newline
+\end_inset
+
+ 
+\begin_inset Newline newline
+\end_inset
+
+
+\end_layout
+
+\begin_layout Subsection*
+
+\lang russian
+Давид против Голиафа
+\end_layout
+
+\begin_layout Standard
+
+\lang russian
+Временами в Саге случается так, что разные правила или способности начинают противоречить друг другу и создают неразрешаемые ситуации. Довольно обычной является момент, когда способность требует от отряда сделать что-то, когда другая способность не даёт. В таких ситуациях работает следующее правило - запрет побеждает необходимость - 
+\begin_inset Quotes erd
+\end_inset
+
+не может
+\begin_inset Quotes erd
+\end_inset
+
+ главнее 
+\begin_inset Quotes erd
+\end_inset
+
+должен
+\begin_inset Quotes erd
+\end_inset
+
+. 
+\begin_inset Newline newline
+\end_inset
+
+ 
+\begin_inset Newline newline
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+
+\lang russian
+
+\begin_inset ERT
+status collapsed
+
+\begin_layout Plain Layout
+
+\backslash
+begingroup
+\end_layout
+
+\end_inset
+
+ 
+\begin_inset ERT
+status collapsed
+
+\begin_layout Plain Layout
+
+\backslash
+fontsize{15pt}{11pt}
+\end_layout
+
+\end_inset
+
+
+\begin_inset ERT
+status collapsed
+
+\begin_layout Plain Layout
+
+\backslash
+selectfont
+\end_layout
+
+\end_inset
+
+ 
+\shape italic
+
+\series bold
+Что ты должен запомнить
+\series default
+
+\shape default
+
+\begin_inset Newline newline
+\end_inset
+
+ 
+\begin_inset ERT
+status collapsed
+
+\begin_layout Plain Layout
+
+\backslash
+fontsize{11pt}{11pt}
+\end_layout
+
+\end_inset
+
+
+\begin_inset ERT
+status collapsed
+
+\begin_layout Plain Layout
+
+\backslash
+selectfont
+\end_layout
+
+\end_inset
+
+ 
+\end_layout
+
+\begin_layout Itemize
+
+\lang russian
+У каждого подразделения есть тип: Герой, Воин правителя (Дружинник), Воин или Рекрут. 
+\end_layout
+
+\begin_layout Itemize
+
+\lang russian
+Юниты (подразделения) Саги, за исключением Героев, состоят из 4-12 фигурок. 
+\end_layout
+
+\begin_layout Itemize
+
+\lang russian
+В любой момент можно измерять любое расстояние до чего-либо. 
+\end_layout
+
+\begin_layout Itemize
+
+\lang russian
+Во время игры противники ходят по очереди. 
+\end_layout
+
+\begin_layout Itemize
+
+\lang russian
+Ход делится на две фазы: Фаза Приказов и Фаза Активаций. 
+\end_layout
+
+\begin_layout Itemize
+
+\lang russian
+Дроби всегда округляются вверх до ближайшего целого. 
+\end_layout
+
+\begin_layout Standard
+
+\lang russian
+
+\begin_inset ERT
+status collapsed
+
+\begin_layout Plain Layout
+
+\backslash
+endgroup
+\end_layout
+
+\end_inset
+
+ 
+\begin_inset Newpage newpage
+\end_inset
+
+
+\end_layout
+
+\begin_layout Part
+
+\lang russian
+Фаза приказов
+\end_layout
+
+\begin_layout Standard
+
+\lang russian
+
+\series bold
+
+\shape italic
+Как мы увидели, ход состоит из двух идущих друг за другом фаз: Фаза Приказов и Фаза Активаций. Эта глава описывает первую, и, по мнению ветеранов Саги, самую важную фазу: Фазу Приказов. 
+\shape default
+
+\series default
+ 
+\end_layout
+
+\begin_layout Section*
+
+\lang russian
+Боевые Доски и Кубы Саги
+\end_layout
+
+\begin_layout Standard
+
+\lang russian
+У каждой фракции своя Боевая Доска (ты найдёшь их в той Вселенной Саги, которую выберешь для игры), которая используется вместе с соответствующим набором Кубов Саги. 
+\begin_inset Newline newline
+\end_inset
+
+ 
+\begin_inset Newline newline
+\end_inset
+
+ Ниже пример Боевой Доски и краткая информация о её содержании 
+\begin_inset Newpage newpage
+\end_inset
+
+
+\begin_inset Graphics 
+	filename pics/SagaBattleboard.jpg
+	width 100text%
+
+\end_inset
+
+ 
+\begin_inset Newline newline
+\end_inset
+
+ 
+\begin_inset Newline newline
+\end_inset
+
+ 
+\begin_inset Newline newline
+\end_inset
+
+ 
+\end_layout
+
+\begin_layout Enumerate
+
+\lang russian
+Название фракции 
+\end_layout
+
+\begin_layout Enumerate
+
+\lang russian
+Умения Саги этой фракции. В общем случае, здесь 15 умений: какие-то расположены выше названия фракции, какие-то ниже. Позже мы увидим, в чём разница между ними, а пока что запомни, что умения Саги позволяют подразделениям совершать действия во время игры. 
+\end_layout
+
+\begin_layout Enumerate
+
+\lang russian
+Кубик Саги, который нужен тебе для игры этой фракцией. На каждом умении Саги нарисован результат броска, который необходим для активации этого умения. 
+\end_layout
+
+\begin_layout Standard
+
+\lang russian
+Боевая Доска (Батлборд) используется вместе с Кубами Саги. В начале каждого хода ты кидаешь определённое количество Кубов Саги и расставляешь их на умения Саги на батлборде. 
+\begin_inset Newline newline
+\end_inset
+
+ 
+\begin_inset Newline newline
+\end_inset
+
+ Все Кубы из одного набора одинаковы. Они устроены так, что один из символов расположен на трёх гранях, один на двух и последний присутствует только на одной грани. 
+\begin_inset Newline newline
+\end_inset
+
+ 
+\begin_inset Newline newline
+\end_inset
+
+ Ты играешь с 
+\series bold
+восемью
+\series default
+ Кубами Саги - ни меньше, ни больше. Иметь больше восьми Кубов всё равно что хранить туз в рукаве во время покерной партии. 
+\begin_inset Newline newline
+\end_inset
+
+ 
+\begin_inset Newline newline
+\end_inset
+
+ 
+\end_layout
+
+\begin_layout Subsection*
+
+\lang russian
+Фаза приказов
+\end_layout
+
+\begin_layout Standard
+
+\lang russian
+Во время фазы приказов ты планируешь действия, которые совершишь в Фазу Активаций. Фаза происходит следующим образом: 
+\end_layout
+
+\begin_layout Itemize
+
+\lang russian
+Брось столько Кубов Саги, сколько генерирует твоя боевая банда 
+\end_layout
+
+\begin_layout Itemize
+
+\lang russian
+После этого ты должен позволить противнику сыграть 
+\series bold
+умения-реакции
+\series default
+ 
+\end_layout
+
+\begin_layout Itemize
+
+\lang russian
+Теперь ты можешь расставить Кубы на умения и активировать умения, которые работают в Фазу Приказов, меня очерёдность по своему усмотрению. 
+\end_layout
+
+\begin_layout Itemize
+
+\lang russian
+Ещё раз позволь своему противнику сыграть 
+\series bold
+умения-реакции
+\series default
+. 
+\end_layout
+
+\begin_layout Standard
+
+\lang russian
+
+\begin_inset ERT
+status collapsed
+
+\begin_layout Plain Layout
+
+\backslash
+begingroup
+\end_layout
+
+\end_inset
+
+ 
+\begin_inset ERT
+status collapsed
+
+\begin_layout Plain Layout
+
+\backslash
+fontsize{15pt}{11pt}
+\end_layout
+
+\end_inset
+
+
+\begin_inset ERT
+status collapsed
+
+\begin_layout Plain Layout
+
+\backslash
+selectfont
+\end_layout
+
+\end_inset
+
+ 
+\shape italic
+Книжник поможет тебе...
+\shape default
+
+\begin_inset Newline newline
+\end_inset
+
+ 
+\begin_inset Newline newline
+\end_inset
+
+ 
+\begin_inset ERT
+status collapsed
+
+\begin_layout Plain Layout
+
+\backslash
+fontsize{11pt}{11pt}
+\end_layout
+
+\end_inset
+
+
+\begin_inset ERT
+status collapsed
+
+\begin_layout Plain Layout
+
+\backslash
+selectfont
+\end_layout
+
+\end_inset
+
+ 
+\shape italic
+Когда противник играет умения-реакции, он использует способности, которые разрушают твои грандиозные планы. Стоит привыкать к этому очень быстро - противники, которые позволяют тебе делать то, что ты хочешь, вещь редкая!
+\shape default
+ 
+\begin_inset ERT
+status collapsed
+
+\begin_layout Plain Layout
+
+\backslash
+endgroup
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Section*
+
+\lang russian
+Генерация Кубов Саги
+\end_layout
+
+\begin_layout Standard
+
+\lang russian
+В начале Фазы Приказов ты должен выяснить, сколько Кубов ты можешь бросить. Здесь нет ничего сложного. 
+\begin_inset Newline newline
+\end_inset
+
+ Возьми 
+\series bold
+по одному
+\series default
+ Кубу за: 
+\end_layout
+
+\begin_layout Itemize
+
+\lang russian
+твоего Боевого Вождя, если он ещё на поле 
+\end_layout
+
+\begin_layout Itemize
+
+\lang russian
+каждый юнит Дружинников, который ещё на поле 
+\end_layout
+
+\begin_layout Itemize
+
+\lang russian
+каждый юнит Воинов, находящийся на поле и содержащий по меньшей мере 4 фигурки 
+\end_layout
+
+\begin_layout Itemize
+
+\lang russian
+каждый юнит Рекрутов, находящийся на поле и содержащий по меньшей мере 6 фигурок 
+\end_layout
+
+\begin_layout Standard
+
+\lang russian
+Добавь к этим Кубам: 
+\end_layout
+
+\begin_layout Itemize
+
+\lang russian
+Кубы, сгенерированные другими твоими Героями, находящимися на поле. Каждый Герой генерирует разное количество Кубов Саги, которое ты найдёшь в описании Героя. 
+\end_layout
+
+\begin_layout Standard
+
+\lang russian
+Временами твоя Боевая Банда будет генерировать больше, чем 8 Кубов Саги, но несмотря ни на что, в начале хода ты не можешь бросить больше, чем 8 Кубов Саги. 
+\begin_inset Newline newline
+\end_inset
+
+ 
+\begin_inset Newline newline
+\end_inset
+
+ 
+\begin_inset ERT
+status collapsed
+
+\begin_layout Plain Layout
+
+\backslash
+begingroup
+\end_layout
+
+\end_inset
+
+ 
+\begin_inset ERT
+status collapsed
+
+\begin_layout Plain Layout
+
+\backslash
+fontsize{15pt}{11pt}
+\end_layout
+
+\end_inset
+
+
+\begin_inset ERT
+status collapsed
+
+\begin_layout Plain Layout
+
+\backslash
+selectfont
+\end_layout
+
+\end_inset
+
+ 
+\shape italic
+Книжник поможет тебе...
+\shape default
+
+\begin_inset Newline newline
+\end_inset
+
+ 
+\begin_inset Newline newline
+\end_inset
+
+ 
+\begin_inset ERT
+status collapsed
+
+\begin_layout Plain Layout
+
+\backslash
+fontsize{11pt}{11pt}
+\end_layout
+
+\end_inset
+
+
+\begin_inset ERT
+status collapsed
+
+\begin_layout Plain Layout
+
+\backslash
+selectfont
+\end_layout
+
+\end_inset
+
+ 
+\shape italic
+Вообрази Мирмидонцев, собирающихся наброситься на своих врагов Троянцев. После первых обменов ударами у них остались: 
+\end_layout
+
+\begin_layout Itemize
+
+\shape italic
+
+\lang russian
+Юнит из 6 Дружинников 
+\end_layout
+
+\begin_layout Itemize
+
+\shape italic
+
+\lang russian
+Юнит из 2 Дружинников 
+\end_layout
+
+\begin_layout Itemize
+
+\shape italic
+
+\lang russian
+Юнит из 10 Воинов 
+\end_layout
+
+\begin_layout Itemize
+
+\shape italic
+
+\lang russian
+Юнит из 3 Воинов 
+\end_layout
+
+\begin_layout Itemize
+
+\shape italic
+
+\lang russian
+Юнит из 9 Рекрутов 
+\end_layout
+
+\begin_layout Itemize
+
+\shape italic
+
+\lang russian
+и Варлорд, смело ведущий их в бой. 
+\end_layout
+
+\begin_layout Standard
+
+\shape italic
+
+\lang russian
+На начало хода наш Ахиллес, играющий в Сагу, должен сгенерировать свои Кубы Саги. Он получает: 
+\end_layout
+
+\begin_layout Itemize
+
+\shape italic
+
+\lang russian
+1 Куб за 6 Дружинников 
+\end_layout
+
+\begin_layout Itemize
+
+\shape italic
+
+\lang russian
+1 Куб за 2 Дружинников 
+\end_layout
+
+\begin_layout Itemize
+
+\shape italic
+
+\lang russian
+1 Куб за 10 Воинов 
+\end_layout
+
+\begin_layout Itemize
+
+\shape italic
+
+\lang russian
+1 Куб за 10 Рекрутов 
+\end_layout
+
+\begin_layout Itemize
+
+\shape italic
+
+\lang russian
+и 1 Куб за Варлорда. 
+\end_layout
+
+\begin_layout Standard
+
+\shape italic
+
+\lang russian
+Юнит из 3 Воинов не генерирует Куб Саги, потому что в нём меньше, чем 4 фигурки. Итого, игрок будет бросать 5 Кубов во время Фазы Приказов.
+\shape default
+ 
+\begin_inset ERT
+status collapsed
+
+\begin_layout Plain Layout
+
+\backslash
+endgroup
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Section*
+
+\lang russian
+Бросок Кубов Саги
+\end_layout
+
+\begin_layout Standard
+
+\lang russian
+Теперь, когда ты знаешь, сколько Кубов должен бросить, возьми их! Возможна ситуация, когда у тебя остались Кубы Саги на Батлборде с прошлого хода. Такое случается, если ты положил Куб на способность, но по каким-то причинам не смог или не захотел использовать её. До броска Кубов, ты можешь снять какие-то Кубы с Батлборда. Это необходимо на тот случай, если тебе не хватает Кубов для броска сгенерированного в начале хода количества Кубов. 
+\begin_inset Newline newline
+\end_inset
+
+ 
+\begin_inset Newline newline
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+
+\lang russian
+
+\begin_inset ERT
+status collapsed
+
+\begin_layout Plain Layout
+
+\backslash
+begingroup
+\end_layout
+
+\end_inset
+
+ 
+\begin_inset ERT
+status collapsed
+
+\begin_layout Plain Layout
+
+\backslash
+fontsize{15pt}{11pt}
+\end_layout
+
+\end_inset
+
+
+\begin_inset ERT
+status collapsed
+
+\begin_layout Plain Layout
+
+\backslash
+selectfont
+\end_layout
+
+\end_inset
+
+ 
+\shape italic
+Книжник поможет тебе...
+\shape default
+
+\begin_inset Newline newline
+\end_inset
+
+ 
+\begin_inset Newline newline
+\end_inset
+
+ 
+\begin_inset ERT
+status collapsed
+
+\begin_layout Plain Layout
+
+\backslash
+fontsize{11pt}{11pt}
+\end_layout
+
+\end_inset
+
+
+\begin_inset ERT
+status collapsed
+
+\begin_layout Plain Layout
+
+\backslash
+selectfont
+\end_layout
+
+\end_inset
+
+ 
+\shape italic
+Вообразим, что наши Мирмидонцы всё ещё имеют 4 Куба Саги на своём Батлборде. Они сгенерировали 5 Кубов Саги, но не смогут бросить все, если не уберут один Куб с Батлборда - помни, что каждый игрок имеет на руках ровно 8 Кубов Саги!
+\shape default
+ 
+\begin_inset ERT
+status collapsed
+
+\begin_layout Plain Layout
+
+\backslash
+endgroup
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+
+\lang russian
+Как мы увидим далее, определённые умения Саги требуют для использования два Куба Саги. Если ты решишь убрать один Куб с такой способности, тебе придётся убрать оба Куба. Ты не можешь оставить часть Кубов, необходимых для активации способности, на доске, а часть забрать для броска. 
+\begin_inset Newline newline
+\end_inset
+
+ 
+\begin_inset Newline newline
+\end_inset
+
+ Когда ты закончишь, соверши бросок Кубов. До тех пор, пока Кубы не выставлены на Батлборд, они считаются 
+\series bold
+неактивными
+\series default
+. Те Кубы, которые ты ещё не бросил и которые ещё не выставлены на умения Саги, считаются 
+\series bold
+доступными
+\series default
+. 
+\begin_inset Newline newline
+\end_inset
+
+ 
+\begin_inset Newline newline
+\end_inset
+
+ Как только ты бросил Кубы, твой противник может активировать свои 
+\series bold
+умения-реакции
+\series default
+ (мы вернёмся к ним позже).
+\end_layout
+
+\begin_layout Section*
+
+\lang russian
+Расстановка Кубов Саги
+\end_layout
+
+\begin_layout Standard
+
+\lang russian
+Теперь, когда ты совершил бросок Кубов Саги, у тебя есть несколько символов, которые совпадают с символами, изображёнными на умениях Саги, изображённых на Батлборде. Давай повнимательней посмотрим на умение Саги:
+\end_layout
+
+\begin_layout Standard
+
+\lang russian
+
+\begin_inset Graphics 
+	filename pics/SagaPlacingDice.jpg
+	width 100text%
+
+\end_inset
+
+ 
+\end_layout
+
+\begin_layout Enumerate
+
+\lang russian
+Название умения. 
+\end_layout
+
+\begin_layout Enumerate
+
+\lang russian
+Ключевое слово умения: это слово показывает, в какой момент игры данная способность может быть активирована. На рисунке у нас ключевое слово 
+\begin_inset Quotes erd
+\end_inset
+
+Ближний бой
+\begin_inset Quotes erd
+\end_inset
+
+, что означает, что ты можешь активировать эту способность только во время рукапашной схватки. Определённые способности имеюи несколько ключевых слов, что даёт тебе больше свободы относительно выбора момента их активации. 
+\end_layout
+
+\begin_layout Enumerate
+
+\lang russian
+Описание умения. Другими словами, что конкретно происходит в момент, когда способность активирована. Ограничения в использовании способности мог быть написаны 
+\shape italic
+курсивом
+\shape default
+ прямо перед ключевым словом. Например, некоторые умения могут быть использованы только для определённого типа солдат. Способность на рисунке может быть использована только конным юнитом, который совершил 
+\shape italic
+активацию на атаку
+\shape default
+. Следовательно, твоя пехота не может использовать это умение. 
+\end_layout
+
+\begin_layout Enumerate
+
+\lang russian
+Цена умения, изображённая символами на Кубах. Цена показывает Куб или Кубы, необходимые для активации умения. Мы рассмотрим этот аспект более подробно дальше. 
+\end_layout
+
+\begin_layout Standard
+
+\lang russian
+Те умения, которые расположены над названием фракции - это 
+\series bold
+базовые
+\series default
+ умения. Под названием фракции расположены 
+\series bold
+специальные
+\series default
+ умения. 
+\begin_inset Newline newline
+\end_inset
+
+ 
+\begin_inset Newline newline
+\end_inset
+
+ Базовые умения могут быть использованы несколько раз за ход, в то время как специальные умения могут быть использованы только один раз за ход. 
+\begin_inset Newline newline
+\end_inset
+
+ 
+\begin_inset Newline newline
+\end_inset
+
+ Временами в нижней части Батлборда будут появляться способности с ключевым словом 
+\series bold
+
+\begin_inset ERT
+status collapsed
+
+\begin_layout Plain Layout
+"
+\end_layout
+
+\end_inset
+
+Базовая
+\begin_inset ERT
+status collapsed
+
+\begin_layout Plain Layout
+"
+\end_layout
+
+\end_inset
+
+
+\series default
+ (
+\begin_inset ERT
+status collapsed
+
+\begin_layout Plain Layout
+"
+\end_layout
+
+\end_inset
+
+Basic
+\begin_inset ERT
+status collapsed
+
+\begin_layout Plain Layout
+"
+\end_layout
+
+\end_inset
+
+). Такие способности так же могут быть использованы несколько раз в ход. 
+\begin_inset Newline newline
+\end_inset
+
+ 
+\begin_inset Newline newline
+\end_inset
+
+ Каждая способность имеет цену, выраженную в Кубах саги. Это те символы, которые изображены в соответствующем месте со способностью. 
+\begin_inset Newline newline
+\end_inset
+
+ 
+\begin_inset Newline newline
+\end_inset
+
+ Многие способности Саги дают тебе свободу выбора относительно того, какой Куб потратить. Например: 
+\begin_inset Newline newline
+\end_inset
+
+ 
+\begin_inset Newline newline
+\end_inset
+
+ 
+\begin_inset Graphics 
+	filename pics/SagaSeveralDiceAbility.png
+	width 100text%
+
+\end_inset
+
+ 
+\begin_inset Newline newline
+\end_inset
+
+ 
+\begin_inset Newline newline
+\end_inset
+
+ 
+\begin_inset Newline newline
+\end_inset
+
+ Эту способность ты можешь активировать, выставив на неё любой из этих двух символов. Как только ты выставляешь Куб Саги для способность, способность считается 
+\series bold
+активированной
+\series default
+, а выставленный Куб считается 
+\series bold
+активным Кубом Саги
+\series default
+. 
+\begin_inset Newline newline
+\end_inset
+
+ 
+\begin_inset Newline newline
+\end_inset
+
+ Некоторые способности требуют два Куба, чтобы активироваться. 
+\begin_inset ERT
+status collapsed
+
+\begin_layout Plain Layout
+%
+\backslash
+addcontentsline{toc}{chapter}{3. Фаза приказов}
+\end_layout
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Part
+
+\lang russian
+Фаза активации
+\end_layout
+
+\begin_layout Standard
+
+\lang russian
+
+\begin_inset ERT
+status collapsed
+
+\begin_layout Plain Layout
+%
+\backslash
+addcontentsline{toc}{chapter}{4. Фаза активации}
+\end_layout
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Part
+
+\lang russian
+Движение
+\end_layout
+
+\begin_layout Standard
+
+\lang russian
+
+\begin_inset ERT
+status collapsed
+
+\begin_layout Plain Layout
+%
+\backslash
+addcontentsline{toc}{chapter}{5. Движение}
+\end_layout
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Part
+
+\lang russian
+Атака
+\end_layout
+
+\begin_layout Standard
+
+\lang russian
+
+\begin_inset ERT
+status collapsed
+
+\begin_layout Plain Layout
+%
+\backslash
+addcontentsline{toc}{chapter}{6. Атака}
+\end_layout
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Part
+
+\lang russian
+Стрельба
+\end_layout
+
+\begin_layout Standard
+
+\lang russian
+
+\begin_inset ERT
+status collapsed
+
+\begin_layout Plain Layout
+%
+\backslash
+addcontentsline{toc}{chapter}{7. Стрельба}
+\end_layout
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Part
+
+\lang russian
+Ближний бой
+\end_layout
+
+\begin_layout Standard
+
+\lang russian
+
+\begin_inset ERT
+status collapsed
+
+\begin_layout Plain Layout
+%
+\backslash
+addcontentsline{toc}{chapter}{8. Ближнр
+\end_layout
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+
+
+\begin_inset ERT
+status collapsed
+
+\begin_layout Plain Layout
+%
+\backslash
+addcontentsline{toc}{chapter}{9. Отдых и усталость}
+\end_layout
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Part
+
+\lang russian
+Особенности местности
+\end_layout
+
+\begin_layout Standard
+
+\lang russian
+
+\begin_inset ERT
+status collapsed
+
+\begin_layout Plain Layout
+%
+\backslash
+addcontentsline{toc}{chapter}{10. Особенности местности}
+\end_layout
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Part
+
+\lang russian
+Специальные правила
+\end_layout
+
+\begin_layout Standard
+
+\lang russian
+
+\begin_inset ERT
+status collapsed
+
+\begin_layout Plain Layout
+%
+\backslash
+addcontentsline{toc}{chapter}{11. Специальные правила}
+\end_layout
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Part
+
+\lang russian
+Умения Саги
+\end_layout
+
+\begin_layout Standard
+
+\lang russian
+
+\begin_inset ERT
+status collapsed
+
+\begin_layout Plain Layout
+%
+\backslash
+addcontentsline{toc}{chapter}{12. Умения Саги}
+\end_layout
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Part
+
+\lang russian
+Сбор отряда
+\end_layout
+
+\begin_layout Standard
+
+\lang russian
+
+\begin_inset ERT
+status collapsed
+
+\begin_layout Plain Layout
+%
+\backslash
+addcontentsline{toc}{chapter}{13. Сбор отряда}
+\end_layout
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Part
+
+\lang russian
+Битва Вождей
+\end_layout
+
+\begin_layout Standard
+
+\lang russian
+
+\begin_inset ERT
+status collapsed
+
+\begin_layout Plain Layout
+%
+\backslash
+addcontentsline{toc}{chapter}{14. Битва Вождей}
+\end_layout
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Part
+
+\lang russian
+Глоссарий
+\end_layout
+
+\begin_layout Standard
+
+\lang russian
+
+\begin_inset ERT
+status collapsed
+
+\begin_layout Plain Layout
+%
+\backslash
+addcontentsline{toc}{chapter}{Глоссарий}
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_body
+\end_document
